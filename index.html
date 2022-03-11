@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Stand up and Drink water!</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Stand up and Drink water!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            </div>
+        </nav>
+        <!-- Product section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="row gx-4 gx-lg-5 align-items-center">
+                    <div class="col-md-6">
+                        <video id="camera--view" autoplay playsinline></video>
+                    </div>
+                    <div class="col-md-6">
+
+                        <h1 class="display-5 fw-bolder">Set up the timer!</h1>
+                        <p class="lead">Sitting for a long time can cause many diseases. So I recommend you to stand up and drink water at least once an hour.</p>
+                        <p>Type alarm period.</p>
+                        <div class="d-flex">
+                            <h2>Every</h2>
+                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="60" style="max-width: 3rem" />
+                            <h2>Minutes</h2>
+                        </div>
+                        <button class="btn btn-outline-dark flex-shrink-0" id="timerButton" type="button">
+                            Start!
+                        </button>
+                        <button class="btn btn-outline-dark flex-shrink-0" id="mirrorButton" type="button">
+                            Mirror on
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white"></p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->   
+        <script src="js/cam.js"></script>
+        <script src="js/timer.js"></script>
+    </body>
+</html>
+
+<!-- 동영상 재생중, 마우스 움직임, 얼굴 인식, 아님 걍 타이머 -->
